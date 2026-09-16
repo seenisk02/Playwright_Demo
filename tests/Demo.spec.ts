@@ -36,7 +36,7 @@ import {test , expect , Locator} from "@playwright/test";
 
 test("Validate title",async ({page})=>{
  await page.goto("https://testautomationpractice.blogspot.com/");
-  await expect.soft(page).toHaveTitle("OrangeHRM");
+  await expect.soft(page).toHaveTitle("Automation Testing Practice");
 
 //  let title :string =await page.title();
 //  console.log(title);
